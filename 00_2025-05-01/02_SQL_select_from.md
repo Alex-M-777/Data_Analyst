@@ -27,7 +27,7 @@ FROM EmployeeDemographics
 
 Grab fn ln col
 
-### * wild card
+### * all cols
 
 ```
 SELECT *
