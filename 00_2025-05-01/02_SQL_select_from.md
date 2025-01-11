@@ -26,17 +26,18 @@ FROM EmployeeDemographics`
 Grab fn ln col
 
 ### * wild card
-`SELECT *
-FROM EmployeeDemographics
 
-grab all row and cal`
+`SELECT *
+FROM EmployeeDemographics`
+
+grab all row and cal
 
 ### top
 
 `SELECT TOP 5 * 
-FROM EmployeeDemographics
+FROM EmployeeDemographics`
 
-select top 5 rows`
+select top 5 rows
 
 ### distinct
 

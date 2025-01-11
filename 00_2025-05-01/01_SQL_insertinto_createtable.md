@@ -33,18 +33,18 @@ click new query to make a query
 
 we did
 
-`CREATE TABLE NameOfTable
-(ID int,
-Title varchar(50),
-Salary int)
+`CREATE TABLE NameOfTable  
+(ID int,  
+Title varchar(50),  
+Salary int)  
 `
 execute, show stuff, comment out or delete table
 
 add stuff 
 
-`INSERT INTO NameOfTable VALUES
-(1001, 'charaters1', 50050),
-(1002, 'charaters2', 50500),
+`INSERT INTO NameOfTable VALUES  
+(1001, 'charaters1', 50050),  
+(1002, 'charaters2', 50500),  
 (1003, 'charaters3', 55000)
 `
 show stuff

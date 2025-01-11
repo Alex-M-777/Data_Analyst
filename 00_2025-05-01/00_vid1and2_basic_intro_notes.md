@@ -32,7 +32,7 @@ recruiters can help you get hired. company wants to fill position, recruiter get
 
 steps 
 
-1. Learn the skill 3-4 months
-2. Create portfolio of projects 3-6 weeks
-3. Build resume 1-2 weeks
-4. Apply to jobs 1-6 months
+1. Learn the skill 3-4 months  
+2. Create portfolio of projects 3-6 weeks  
+3. Build resume 1-2 weeks  
+4. Apply to jobs 1-6 months  
