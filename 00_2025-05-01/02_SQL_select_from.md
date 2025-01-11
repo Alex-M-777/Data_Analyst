@@ -20,52 +20,66 @@
 
 ### Select
 
-`SELECT FirstName, LastName
-FROM EmployeeDemographics`
+```
+SELECT FirstName, LastName
+FROM EmployeeDemographics
+```
 
 Grab fn ln col
 
 ### * wild card
 
-`SELECT *
-FROM EmployeeDemographics`
+```
+SELECT *
+FROM EmployeeDemographics
+```
 
 grab all row and cal
 
 ### top
 
-`SELECT TOP 5 * 
-FROM EmployeeDemographics`
+```
+SELECT TOP 5 * 
+FROM EmployeeDemographics
+```
 
 select top 5 rows
 
 ### distinct
 
-`SELECT DISTINCT(Gender)
-FROM EmployeeDemographics`
+```
+SELECT DISTINCT(Gender)
+FROM EmployeeDemographics
+```
 
 Will return two results from the table, only male and female are found in the table
 
 ### count
 
-`SELECT COUNT(LastName)
+```
+SELECT COUNT(LastName)
 FROM EmployeeDemographics
-`
+```
+
 Outputs number of last names
 
 derived info base of last name, doesnt return col name
 
 ### as (col name)
 
-`SELECT COUNT(LastName) AS LastNameCount
+```
+SELECT COUNT(LastName) AS LastNameCount
 FROM EmployeeDemographics
-`
+```
+
 returns last name count as col name
 
 ### min max avg
 
-`SELECT AVG(Salary)
-FROM EmployeeSalary `
+```
+SELECT AVG(Salary)
+FROM EmployeeSalary 
+```
 
 obv returns min max avg of salary
 
@@ -78,8 +92,10 @@ we are working in a tutorial database, picking from tables that exist inside the
 
 > while in master database not tutorial
 
+```
 SELECT * 
 FROM SQLTutorial.dbo.EmployeeSalary
+```
 
 outputs the tutorial database employee salary table
 
